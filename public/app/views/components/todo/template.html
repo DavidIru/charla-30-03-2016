@@ -1,0 +1,14 @@
+<div class="todo-wrapper">
+    <form>
+        <input placeholder="Tengo que hacer..." type="text" ng-model="formTodoText" class="add-input" />
+        <button ng-click="addTodo()" class="add-btn">
+            <h2>Add</h2>
+        </button>
+    </form>
+    <ul>
+        <li ng-repeat="todo in todos" ng-click="toggleState(todo)">
+            <span class="done-{{ todo.done }}">{{ todo.text }}</span>
+        </li>
+    </ul>
+    <button ng-click="clearCompleted()" class="clear-btn">Eliminar completados</button>
+</div>

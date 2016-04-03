@@ -1,0 +1,9 @@
+.todo-wrapper
+    form
+        input.add-input(placeholder="Tengo que hacer...", type="text", ng-model="formTodoText")
+        button.add-btn(ng-click="addTodo()")
+            h2 Add
+    ul
+        li(ng-repeat="todo in todos", ng-click="toggleState(todo)")
+            span(class="done-{{ todo.done }}") {{ todo.text }}
+    button.clear-btn(ng-click="clearCompleted()") Eliminar completados

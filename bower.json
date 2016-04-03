@@ -1,0 +1,18 @@
+{
+  "name": "Empty project angular",
+  "version": "1.0.0",
+  "main": "index.html",
+  "homepage": "https://github.com/DavidIru/angular-todo",
+  "private": true,
+  "author": "David Iruzubieta (@DavidIruzubieta)",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "angular": "1.5.*",
+    "angular-route": "1.5.*",
+    "angular-ui-router": "0.2.13",
+    "angular-cookies": "1.5.*",
+    "ng-lodash": "^0.4.0"
+  }
+}

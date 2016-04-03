@@ -1,0 +1,7 @@
+[
+  "bower_components/angular/angular.js",
+  "bower_components/angular-route/angular-route.js",
+  "bower_components/angular-ui-router/release/angular-ui-router.js",
+  "bower_components/angular-cookies/angular-cookies.js",
+  "bower_components/ng-lodash/build/ng-lodash.js"
+]

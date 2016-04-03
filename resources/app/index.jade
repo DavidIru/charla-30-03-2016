@@ -1,0 +1,22 @@
+doctype html
+html(lang="es", data-ng-app="todoProject")
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        title TODO Project - David Iruzubieta
+        // Application styles
+        link(rel='stylesheet', href='app/css/main.css')
+    body
+        #app
+            h1 TODO Angular JS
+            section
+                .wrapper(ui-view="")
+        #credits
+            p
+                | Creado por
+                strong David Iruzubieta Blanco
+            a(href="https://twitter.com/DavidIru", target="_blank") Twitter
+            a(href="https://es.linkedin.com/in/davidiruzubieta", target="_blank") Linkedin
+            a(href="https://github.com/DavidIru", target="_blank") Github
+        script(src='app/js/base.js')
+        script(src='app/js/app.js')

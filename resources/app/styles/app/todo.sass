@@ -1,0 +1,85 @@
+$firstColor: #fbfbfb
+$secondColor: #e8e8e8
+
+=gradient($color1, $color2)
+    background: -webkit-gradient(linear, 0 0, 0 100%, from($color1), to($color2))
+    background: -webkit-linear-gradient($color1 0%, $color2 100%)
+    background: -moz-linear-gradient($color1 0%, $color2 100%)
+    background: -o-linear-gradient($color1 0%, $color2 100%)
+    background: linear-gradient($color1 0%, $color2 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2', GradientType=0)
+
+body
+    background: #eee
+    font-family: Verdana, Arial, Helvetica, sans-serif
+
+.todo-wrapper
+    background: #55B6AE
+    width: 40%
+    margin: 0 auto
+    border: 1px solid #ccc
+
+h1
+    text-align: center
+
+h2
+    font-size: 2em
+    padding: 20px
+    margin: 0
+    color: #333
+    text-align: center
+
+ul
+    padding: 0
+    margin: 0
+
+li
+    font-size: 1em
+    padding: 10px
+    +gradient($firstColor, $secondColor)
+    list-style-type: none
+    margin-left: 0
+    padding-left: 0
+    span
+        padding-left: 15px
+    &:hover
+        cursor: pointer
+
+form
+    border: 1px solid #ccc
+
+.done-true
+    text-decoration: line-through
+    color: #ccc
+
+.add-input
+    width: 60%
+    height: 20px
+    float: left
+    border: none
+    padding: 20px 0
+    font-size: 1.5em
+    text-indent: 35px
+
+.add-btn
+    width: 40%
+    border: none
+    +gradient(#aaa, #777)
+    padding: 0
+    height: 60px
+    h2
+        padding: 0
+        font-size: 2em
+        color: #333
+    &:hover
+        cursor: pointer
+
+.clear-btn
+    width: 100%
+    border: none
+    height: 60px
+    +gradient(#969696, #666)
+    font-size: 1em
+    color: #333
+    &:hover
+        cursor: pointer
