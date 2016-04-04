@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=8qU3Jt-kKl0
 
 ### URLs de contacto
 
-Twitter: @DavidIru (https://twitter.com/DavidIru)
+Twitter: @DavidIru (https://twitter.com/DavidIruzubieta)
 
 Linkedin: https://es.linkedin.com/in/davidiruzubieta
 
